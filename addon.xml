@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.kodi.universal.cleaner" name="Kodi Universal Cleaner" version="1.0.0" provider-name="Kodi Universal Cleaner contributors">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Clear the caches of supported add-ons from one screen</summary>
+        <description lang="en_GB">Kodi Universal Cleaner scans your installed add-ons, shows the ones it supports, and clears their caches using each add-on's own official cleaning command. Only add-ons you tick are touched. It never deletes settings, logins, databases or watched status, and it never guesses at files to remove.</description>
+        <disclaimer lang="en_GB">Kodi does not report the result of another add-on's cleaning command, so results show what was run, not a measured outcome.</disclaimer>
+        <platform>all</platform>
+        <license>MIT</license>
+        <website>https://github.com/zackdaoui/Sisyphus</website>
+        <source>https://github.com/zackdaoui/Sisyphus</source>
+        <forum>https://github.com/zackdaoui/Sisyphus/issues</forum>
+        <news>1.0.0: first release. Supports Elementum, POV and TMDb Helper (image cache only).</news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
